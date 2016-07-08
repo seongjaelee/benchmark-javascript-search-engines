@@ -1,11 +1,12 @@
 {
   "name": "benchmark-javascript-search-engines",
-  "author": "Jonathan Hoyt",
+  "author": ["Jonathan Hoyt", "Seongjae Lee"],
   "license": "MIT",
   "dependencies": {
-    "benchmark": "^1.0.0",
-    "lunr": "^0.5.12",
-    "search-index": "^0.6.11"
+    "asyncawait": "^1.0.6",
+    "elasticlunr": "^0.8.8",
+    "lunr": "^0.7.1",
+    "search-index": "^0.8.10"
   },
   "scripts": {
     "benchmark": "node benchmark.js"
